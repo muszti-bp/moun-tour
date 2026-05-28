@@ -3,7 +3,7 @@
 Muon Sync is a .NET Core console application for processing, cleaning, synchronizing, and analyzing muon‑detector CSV data together with positional GFX files.  
 All CSV operations are performed row‑by‑row to avoid high memory usage.
 
-The project includes a Visual Studio solution file for easy development.
+
 
 # Features
 
