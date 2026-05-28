@@ -60,3 +60,26 @@ Each row contains:
 - Channel index  
 - Event timestamp in nanoseconds  
 - 128 waveform samples
+
+# Example data
+GPS track viewer tool:
+https://www.therideatlas.com/tools/gpx-viewer/
+
+The GPX file where the height data is replaced with muon count:
+data/tunnel.gpx
+
+Original data files:
+data/input.csv // moun waveforms with event time
+data/input.gpx // gps tracklog
+
+
+# Program usage
+MuonSync - Muon detector data synchronization tool
+Usage: MuonSync <command> [options]
+
+Commands:
+  clean               Remove zero-waveform rows from input CSV
+  integral            Replace 128-sample waveforms with integrated values
+  coincidence         Find multi-channel coincidences within 1 microsecond
+  count               Count coincidences per minute
+  combine [shift_sec] Combine event counts with GPS track (shift in seconds)
