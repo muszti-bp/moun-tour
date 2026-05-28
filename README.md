@@ -67,13 +67,13 @@ https://www.therideatlas.com/tools/gpx-viewer/
 
 The GPX file where the height data is replaced with muon count:
 
-data/tunnel.gpx
+input_data/tunnel.gpx
 
 Original data files:
 
-data/input.csv // moun waveforms with event time
+input_data/input.csv // moun waveforms with event time
 
-data/input.gpx // gps tracklog
+input_data/input.gpx // gps tracklog
 
 
 
