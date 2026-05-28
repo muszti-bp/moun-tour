@@ -75,9 +75,11 @@ data/input.gpx // gps tracklog
 
 # Program usage
 MuonSync - Muon detector data synchronization tool
+
 Usage: MuonSync <command> [options]
 
-## Commands:
+Commands:
+
 clean - Remove zero-waveform rows from input CSV
 
 integral - Replace 128-sample waveforms with integrated values
